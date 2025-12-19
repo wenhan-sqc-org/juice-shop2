@@ -3,7 +3,7 @@ name: Sonar-scan2cloud
 on:
   push:
     branches:
-      - master
+      - main
   pull_request:
     types: [opened, synchronize, reopened]
   workflow_dispatch: # This enables the "Run workflow" button
